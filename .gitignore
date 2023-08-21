@@ -1,0 +1,14 @@
+*.env
+*.venv/
+*.DS_Store
+command_line.txt
+welcome-to-docker/
+google-cloud-sdk/
+IAM-gcloud/
+docker/test_pandas
+docker/test_postgre
+terraform/*
+!terraform/.terraform-version
+!terraform/main.tf
+!terraform/variables.tf
+!terraform/README.md
