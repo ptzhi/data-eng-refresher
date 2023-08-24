@@ -4,7 +4,7 @@ services:
     environment:
       - POSTGRES_USER=root
       - POSTGRES_PASSWORD=root
-      - POSTGRES_DB=ny_taxi_v2
+      - POSTGRES_DB=ny_taxi
     volumes:
       - ./ny_taxi_postgre_data:/var/lib/postgresql/data:rw
     ports:

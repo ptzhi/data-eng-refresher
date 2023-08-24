@@ -1,0 +1,6 @@
+.venv
+.DS_Store
+.__pycache__
+command_line.txt
+test_gcp/gcs_copy_data
+test_gcp/local_raw_data

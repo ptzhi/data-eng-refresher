@@ -53,11 +53,14 @@ $docker run -it \
 	postgres:13
 ~~~
 
+
+
+
 ### 4. Connecting to Docker PostgreSQL
 
 We can quick test connection with pgcli. Make sure to have it installed in venv.
 ~~~
-$pip install pgcli psycopg[binary,pool]
+$pip install pgcli "psycopg[binary,pool]"
 ~~~
 Connect to Docker postgre
 ~~~
